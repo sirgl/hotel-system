@@ -1,0 +1,16 @@
+dbsource:
+  url: jdbc:mysql://localhost:3306/hotel
+  username: roman
+  password: 12345678
+  driver-class-name: com.mysql.jdbc.Driver
+
+logging:
+  level:
+    org:
+      springframework: INFO
+spring:
+  freemarker:
+    cache: false
+  jpa:
+    show-sql: true
+    generate-ddl: true
